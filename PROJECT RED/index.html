@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Thug Zone">
     <meta name="description"
-        content="Join epic Free Fire & BGMI championships at Thug Zone! Compete in weekly championships, win real cash prizes, and become a champion. Start your gaming journey today on India's trusted esports platform.">
+        content="Join epic Free Fire tournaments at Thug Zone! Compete in weekly championships, win real cash prizes, and become a champion. Start your gaming journey today on India's trusted esports platform.">
     <title>Thug Zone - Battlefield of Gamers</title>
+
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="icon" href="/IMGs/fevicon/fevicon.png" type="image/png">
@@ -17,510 +18,399 @@
 </head>
 
 <body>
-    <div class="cursor" id="cursor"></div>
-    <header class="header">
+
+    <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class=" nav__logo"><img src="/IMGs/LOGO/tz logo full.avif" alt="logo"></a>
+            <img src="/IMGs/LOGO/tz logo full.avif" alt="">
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li>
-                        <a href="#home" class="nav__link">Home</a>
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Home</span>
+                        </a>
                     </li>
 
-
-                    <li>
-                        <a href="#about" class="nav__link">About Us</a>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>About Us</span>
+                        </a>
                     </li>
 
-                    <li>
-                        <a href="#updates" class="nav__link">News</a>
-                    </li>
-                    <li>
-                        <a href="#links" class="nav__link">Championship</a>
-                    </li>
-
-
-                    <li>
-                        <a href="#faq" class="nav__link">FAQ</a>
+                    <li class="nav__item">
+                        <a href="#news" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>News</span>
+                        </a>
                     </li>
 
+                    <!-- <li class="nav__item">
+                        <a href="#links" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>Tournaments</span>
+                        </a>
+                    </li> -->
+
+                    <li class="nav__item">
+                        <a href="#faq" class="nav__link">
+                            <i class="ri-arrow-right-up-line"></i>
+                            <span>FAQ</span>
+                        </a>
+                    </li>
                 </ul>
 
                 <!-- Close button -->
                 <div class="nav__close" id="nav-close">
                     <i class="ri-close-large-line"></i>
                 </div>
+
+                <div class="nav__social">
+                    <a href="https://www.instagram.com/thugzone07" target="_blank" class="nav__social-link">
+                        <i class="ri-instagram-line instagram"></i> </a>
+
+                    <a href="https://www.facebook.com/share/18PDBGH2w4" target="_blank" class="nav__social-link">
+                        <i class="ri-facebook-line facebook"></i> </a>
+                    <a href="https://whatsapp.com/channel/0029Vb9TyE88PgsOPHn6y00P" target="_blank"
+                        class="nav__social-link">
+                        <i class="ri-whatsapp-line whatsapp"></i> </a>
+
+                    <a href="https://discord.gg/v3bU89CZFX" target="_blank" class="nav__social-link">
+                        <i class="ri-discord-line discord"></i>
+                    </a>
+                </div>
             </div>
 
-            <div class="nav__actions">
-                <!-- <div class="dropdown" id="dropdown">
-                    <div class="dropdown__profile">
-                        <a href="loginReg.html" class="dropdown__names">
-                            <h3>login</h3>
-                        </a>
-
-                        <div class="dropdown__image">
-                            <i class="ri-user-add-line"></i>
-                        </div>
-                    </div>
-
-                    <div class="dropdown__list">
-                        <a href="#" class="dropdown__link">
-                            <i class="ri-user-line"></i>
-                            <span>Profile</span>
-                        </a>
-
-                        <a href="#" class="dropdown__link">
-                            <i class="ri-time-line"></i>
-                            <span>Activity</span>
-                        </a>
-
-                        <a href="#" class="dropdown__link">
-                            <i class="ri-wallet-line"></i>
-                            <span>Wallet</span>
-                        </a>
-
-
-                        <a href="#" class="dropdown__link">
-                            <i class="ri-logout-box-r-line"></i>
-                            <span>Logout</span>
-                        </a>
-                    </div>
-                </div> -->
-
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
             </div>
         </nav>
     </header>
+    <main id="mainParent">
 
-    <main class="homepage sec1" id="home">
-        <div class="heading">
-            <img class=" mainheading" src="/IMGs/TXT/THUG ZONE.avif" alt="">
-            <div class=" subheading">
-                <img src="/IMGs/TXT/BATTLEFIELD.avif" alt="">
+        <section class="homepage sec1" id="home">
+            <div class="heading">
+                <div class="mainHeadingDiv">
+                    <h1 class=" mainHeading">thug zone</h1>
+                </div>
+                <div class="subHeadingDiv">
+                    <h2 class="subHeading">Gamer's Battlefield</h2>
+                </div>
+                <div class="paraDiv">
+                    <p>
+                        Join us as we celebrate the thrill of competition and the rise of champions.
+                        <span class="hide-paragraph-600">Whether you're a casual gamer looking for fun or an aspiring
+                            professional aiming
+                            for glory, our community welcomes players of all levels.</span>
+                        <span class="hide-paragraph-768">Dive into exciting tournaments, connect with
+                            fellow
+                            enthusiasts,
+                            and embark on a gaming journey filled with unforgettable experiences.</span>
+                        <strong>Your gaming journey begins here!</strong>
+                    </p>
+                </div>
             </div>
-            <p>
-                <strong>Join us</strong> as we celebrate the thrill of competition and the rise of champions.
-                <span class="hide-paragraph-600">Whether you're a casual gamer looking for fun or an aspiring
-                    professional aiming
-                    for glory, <strong>our community welcomes players of all levels</strong>.</span>
-                <span class="hide-paragraph-768">Dive into <strong>exciting tournaments</strong>, connect with fellow
-                    enthusiasts,
-                    and embark on a gaming journey filled with unforgettable experiences.</span>
-                <strong>Your gaming journey begins here!</strong>
-            </p>
-        </div>
 
-        <div class="btn_1st">
-            <button onclick="location.href='#links'" class="btn41-43 btn-42 btn_explore"><span>Participate</span>
-                <i class="ri-arrow-right-line"></i>
-            </button>
-        </div>
+            <div class="btn_1st">
+                <button onclick="location.href='thugSquad.html'" class="homeBtn btn_explore"><span>Participate</span>
+                    <i class="ri-arrow-right-line"></i>
+                </button>
+            </div>
+        </section>
+
+        <section class="sec4 sec4-container" id="about">
+            <div class="sec4-txt">
+                <div class=" sec4-heading">
+                    <h2 class="aboutUsBorder">ABOUT US</h2>
+                    <h2 class="aboutUsTxt">ABOUT US</h2>
+                </div>
+
+                <div class="sec4-paragraph">
+                    <p>
+                        Welcome to <strong>Thug Zone</strong>! We are your ultimate platform for competitive gaming,
+                        specializing in <strong>Free Fire</strong> Tournaments</strong>.
+                        <span class="hidden">At Thug Zone, we host regular, weekly, and monthly championships, offering
+                            every gamer a chance
+                            to
+                            showcase their skills and win exciting <strong>prize money</strong>.</span>
+                    </p>
+                    <br>
+                    <p>
+                        Our platform features both <strong>free</strong> and <strong>paid tournaments</strong>,
+                        <span class="hidden">ensuring that everyone, from casual players to serious competitors, has an
+                            opportunity to
+                            participate.</span> With fair play, exciting matches, and real rewards, Thug Zone creates a
+                        competitive yet fun gaming environment for all.
+                    </p>
+                    <br>
+                    <p class="sec4-optional-para">
+                        Whether you're aiming to practice, enjoy gaming, or win rewards, Thug Zone is the perfect
+                        place to <strong>play, compete, and win</strong>.
+                        <span class="hidden">Join our growing community, test your
+                            skills, and become a champion. The zone belongs to you—step in, play hard, and claim your
+                            victory!</span>
+                    </p>
+
+                </div>
+            </div>
+            <img loading="lazy" class="sec4-char" src="/IMGs/CHAR/CHAR SEC 4.avif" alt="Character Image">
+
+        </section>
+
+        <section class="sec2-container" id="news">
+            <div class="sec2-heading">
+                <h2 class="updateTxt">update<span>s</span></h2>
+                <img loading="lazy" class="news-txt" src="/IMGs/TXT/NEWS.avif" alt="">
+            </div>
+
+            <div class="boxContainer">
+                <!-- <div class="box box-thugwar">
+                    <h1>Thug War</h1>
+                    <ul>
+                        <li><strong>🎮 Game:</strong> Free Fire Max</li>
+                        <li><strong>🎯 Game Mode:</strong> Solo, Full Map</li>
+                        <li><strong>💰 Entry Fee:</strong> FREE!</li>
+                        <li><strong>💰 Prize Pool:</strong> ₹5100</li>
+                        <li><strong>📅 Registration:</strong> March 25, 2025</li>
+                    </ul>
+                    <div class="boxBtn">
+                        <a href="/thugWar.html">Register now!</a>
+                    </div>
+
+                </div>
+ -->
+                <div class="box box-ffarena">
+                    <h1>Thug Squad </h1>
+                    <ul>
+                        <li><strong>🎮 Game:</strong> Free Fire Max</li>
+                        <li><strong>🎯 Game Mode:</strong> Squad, Full Map</li>
+                        <li><strong>💰 Entry Fee:</strong> <span class="orignal">₹300</span> ₹99</li>
+                        <li><strong>💰 Prize Pool:</strong> ₹2100</li>
+                        <li><strong>📅 Registration Date:</strong> Open now!</li>
+                        <li><strong>📅 Match Date:</strong> April 15, 2025</li>
+                    </ul>
+                    <div class="boxBtn">
+                        <a href="/thugSquad.html">Join the Battle!</a>
+
+                    </div>
+                </div>
+
+                <div class="box box-rules">
+                    <h1>Rewards</h1>
+                    <ul>
+                        <li>🏆 Win cash Prize!</li>
+                        <li>💰 Multiple Payout Options Available:</li>
+                        <ul>
+                            <li>📲 UPI Transfer</li>
+                            <li>🏦 Bank Transfer</li>
+                            <li>🎟️ Google Play Redeem Code</li>
+                        </ul>
+                    </ul>
+                    <div class="boxBtn">
+                        <a href="mailto:get@support.thugzone.in">Need Help?</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="sec3 sec3-container" id="links">
+
+            <div class=" item-sec3">
+
+                <div class="heading champHeading">
+                    <h1>thug</h1>
+                    <h1>WAR</h1>
+                </div>
+
+                <a class="champff" href="/thugWar.html">
+                    <div class="charff character">
+                        <img loading="lazy" class="ch1" src="/IMGs/CHAR/SEC CHAR 1.avif" alt="">
+                        <div class="btnff sec-btn">
+                            <img loading="lazy" class="participate btn-txt" src="/IMGs/TXT/PARTICIPATE.avif" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class=" item-sec3">
+                <div class="heading streamHeading">
+                    <h1>thug</h1>
+                    <h1>SQUAD</h1>
+                </div>
+
+                <a class="livestream" href="/thugSquad.html">
+                    <div class="charlive character">
+                        <img loading="lazy" class="ch2" src="/IMGs/CHAR/SEC CHAR 2.avif" alt="">
+
+                        <div class="btnlive sec-btn">
+                            <img loading="lazy" class="watch btn-txt" src="/IMGs/TXT/PARTICIPATE.avif" alt="">
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+        </section> -->
+        <section class="sec7 sec7-container" id="faq">
+
+            <div class="faq-heading">
+                <img loading="lazy" class="" src="IMGs/TXT/FAQ.avif" alt="">
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>What is Thug Zone?</h3> <i class="icon ri-arrow-down-s-line"></i>
+                </div>
+                <div class="answer">
+                    <p>Thug Zone is an Organizer that organizes tournaments, live
+                        streaming, other contents for Free Fire.</p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>What types of Tournaments does Thug Zone organize?</h3> <i
+                        class="icon ri-arrow-down-s-line"></i>
+
+                </div>
+                <div class="answer ">
+                    <p>Thug Zone organizes various types of Tournaments, including <strong>Solo, Duo, Squad</strong>
+                        tournaments, both <strong>paid</strong> and <strong>free</strong>, allowing players to compete
+                        as a team or
+                        individually.</p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>What are the prizes in Thug Zone's Tournaments?</h3> <i class="icon ri-arrow-down-s-line"></i>
+                </div>
+                <div class="answer ">
+                    <p>Thug Zone's championships provide cash prizes for the winners. Each tournament's prize is
+                        different and will be showed on the website when the tournament starts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>How often do Thug Zone's tournaments take place?</h3> <i class="icon ri-arrow-down-s-line"></i>
+                </div>
+                <div class="answer ">
+                    <p>Thug Zone schedules tournaments every <strong>week</strong> and some special tournaments on
+                        <strong>yearly</strong> basis ensuring there are frequent
+                        opportunities for
+                        players to participate and showcase their skills.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>How can I stay updated on Thug Zone's latest announcements and events?</h3> <i
+                        class="icon ri-arrow-down-s-line"></i>
+                </div>
+                <div class="answer ">
+                    <p>You can stay updated on Thug Zone's latest announcements by following our <strong>YouTube
+                            channel</strong>,
+                        Regular visit of Thug Zone Website
+                        and other social media platforms.</p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>What are the benefits of participating in Thug Zone's championships?</h3><i
+                        class="icon ri-arrow-down-s-line"></i>
+                </div>
+                </h3>
+                <div class="answer ">
+                    <p>Participating in Thug Zone's championships offers players the opportunity to test their
+                        skills, compete against skilled opponents, and win exciting cash prizes.</p>
+                </div>
+            </div>
+
+            <div class="accordion ">
+                <div class="question">
+                    <h3>How can I contact Thug Zone for further inquiries?</h3> <i
+                        class="icon ri-arrow-down-s-line"></i>
+
+                </div>
+                <div class="answer ">
+                    <p>To reach out to Thug Zone for further inquiries, you can send us a message on
+                        <a href="mailto:official@thugzone.in"> offical@thugzone.in</a> or contact us through our social
+                        media platforms. All the social media
+                        platforms links are given in the header and footer.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer_content footer_img">
+                <img loading="lazy" src="/IMGs/LOGO/tz logo full.avif" alt="logo">
+                <p class="footerTxt">Join the thrill of Free Fire tournaments at <strong>Thug Zone</strong> – Compete,
+                    Win, and Rule the
+                    Battlefield!</p>
+                <p class="hiddenFooterTxt">Join Free Fire tournaments at <strong>Thug Zone</strong> – Play & Win!</p>
+
+            </div>
+            <div class="footer_content">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/thugzone07" target="_blank"><i class="ri-instagram-line"></i>
+                            Instagram</a></li>
+
+                    <li><a href="https://www.facebook.com/share/18PDBGH2w4/" target="_blank">
+                            <i class="ri-facebook-line facebook"></i> Facebook</a>
+                    </li>
+                    <!-- <li><a href="https://wa.me/918789706061" target="_blank"><i class="ri-whatsapp-line"></i>
+                            WhatsApp</a></li> -->
+                    <li><a href="https://discord.gg/v3bU89CZFX" target="_blank">
+                            <i class="ri-discord-line discord"></i> Discord
+                        </a>
+                    </li>
+                    <li><a href="https://whatsapp.com/channel/0029Vb9TyE88PgsOPHn6y00P" target="_blank">
+                            <i class="ri-whatsapp-line whatsapp"></i> Whatsapp</a></li>
+
+                    <li><a href="mailto:official@thugzone.in">
+                            <i class="ri-mail-send-line"></i> Email</a></li>
+                </ul>
+            </div>
+            <div class="footer_content">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About us</a></li>
+                    <li><a href="#news">News</a></li>
+                    <!-- <li><a href="#links">Tournaments</a></li> -->
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+
+            </div>
+            <div class="footer_content">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a target="_blank" href="/legal/privacy-policy.html">Privacy Policy</a></li>
+                    <li><a target="_blank" href="/legal/cookies-policy.html">Cookies Policy</a></li>
+                    <li><a target="_blank" href="/legal/refund-policy.html">Refund Policy</a></li>
+                    <li><a target="_blank" href="/legal/terms-and-conditions.html">Terms and Conditions</a></li>
+                    <li><a target="_blank" href="/legal/disclamair.html">Disclaimer</a></li>
+                </ul>
+            </div>
+        </footer>
     </main>
 
-    <section class="sec2 sec2-container" id="updates">
-        <div class="sec2-heading">
-            <img class="autoShow news-txt" src="/IMGs/TXT/NEWS.avif" alt="">
-            <img class="autoShow updates-txt" src="/IMGs/TXT/UPDATES.avif" alt="Updates">
-        </div>
-
-        <div class="sec2-updates-container">
-            <div class="autoSlide1 sec2-update-box1">
-                <img class="update" src="/IMGs/NEWS BOX.avif" alt="">
-            </div>
-
-            <div class="autoSlide2 sec2-update-box2">
-                <img class="update" src="/IMGs/NEWS BOX.avif" alt="">
-            </div>
-            <div class="autoSlide3 sec2-update-box3">
-                <img class="update" src="/IMGs/NEWS BOX.avif" alt="">
-            </div>
-        </div>
-    </section>
-
-    <section class="sec3 sec3-container" id="links">
-
-        <div class="champff item-sec3">
-            <div class="heading">
-                <img class="autoShow" src="/IMGs/TXT/FREE FIRE.avif" alt="">
-                <img class="autoShow" src="/IMGs/TXT/ARENA.avif" alt="">
-            </div>
-
-            <a onclick="location.href='participation_form_ff.html'" class="autoSlide" href="#">
-                <div class="charff character">
-                    <img class="ch1" src="/IMGs/CHAR/SEC CHAR 1.avif" alt="">
-                    <div class="btnff sec-btn">
-                        <img class="participate btn-txt" src="/IMGs/TXT/PARTICIPATE.avif" alt="">
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="livestream item-sec3">
-            <div class="heading">
-                <img class="autoShow" src="/IMGs/TXT/LIVE.avif" alt="">
-                <img class="autoShow" src="/IMGs/TXT/ARENA.avif" alt="">
-            </div>
-
-            <a class="autoSlide" href="#">
-                <div class="charlive character">
-                    <img class="ch2" src="/IMGs/CHAR/SEC CHAR 2.avif" alt="">
-
-                    <div class="btnlive sec-btn">
-                        <img class="watch btn-txt" src="/IMGs/TXT/WATCH.avif" alt="">
-                    </div>
-                </div>
-            </a>
-        </div>
-
-        <div class="champbgmi item-sec3">
-            <div class="heading">
-                <img class="autoShow" src="/IMGs/TXT/BGMI.avif" alt="">
-                <img class="autoShow" src="/IMGs/TXT/ARENA.avif" alt="">
-            </div>
-            <a class="autoSlide" href="#">
-                <div class="charbgmi character">
-                    <img class="ch3" src="/IMGs/CHAR/SEC CHAR 3.avif" alt="">
-                    <div class="btnbgmi sec-btn">
-                        <img class="participate btn-txt" src="/IMGs/TXT/PARTICIPATE.avif" alt="">
-                    </div>
-                </div>
-            </a>
-        </div>
-
-    </section>
-
-    <section class="sec4 sec4-container" id="about">
-        <div class="sec4-txt">
-            <div class=" sec4-heading">
-                <img class="autoShowjs about-us-border" src="/IMGs/TXT/ABOUT BORDER.avif" alt="">
-                <img class=" about-us-image autoShowjs" src="/IMGs/TXT/ABOUT US.avif" alt="About Us">
-            </div>
-
-            <div class="sec4-paragraph autoShowParajs">
-                <p>
-                    Welcome to <strong>Thug Zone</strong>! We are your ultimate platform for competitive gaming,
-                    specializing in <strong>Free Fire</strong> and <strong>BGMI championships</strong>.
-                    <span class="hidden">At Thug Zone, we host regular, weekly, and monthly championships, offering
-                        every gamer a chance
-                        to
-                        showcase their skills and win exciting <strong>prize money</strong>.</span>
-                </p>
-                <br>
-                <p>
-                    Our platform features both <strong>free</strong> and <strong>paid tournaments</strong>,
-                    <span class="hidden">ensuring that everyone, from casual players to serious competitors, has an
-                        opportunity to
-                        participate.</span> With fair play, exciting matches, and real rewards, Thug Zone creates a
-                    competitive yet fun gaming environment for all.
-                </p>
-                <br>
-                <p class="sec4-optional-para">
-                    Whether you're aiming to practice, enjoy gaming, or win rewards, Thug Zone is the perfect
-                    place to <strong>play, compete, and win</strong>.
-                    <span class="hidden">Join our growing community, test your
-                        skills, and become a champion. The zone belongs to you—step in, play hard, and claim your
-                        victory!</span>
-                </p>
-
-            </div>
-        </div>
-
-        <div class=" sec4-character-container">
-            <img class="autoCharSlideRjs sec4-char" src="/IMGs/CHAR/CHAR SEC 4.avif" alt="Character Image">
-        </div>
-
-    </section>
-
-    <section class="sec5 sec5-container" id="whyjoin">
-        <div class="sec5-character-container">
-            <img src="/IMGs/CHAR/CHAR SEC 5.avif" alt="Character Image" class="autoCharSlideLjs sec5-char">
-        </div>
-
-        <div class="sec5-txt">
-            <div class="sec5-heading">
-                <img class="autoShowjs why-join-border" src="/IMGs/TXT/WHYUS.avif" alt="">
-                <img class=" autoShowjs why-join" src="/IMGs/TXT/WHY JOIN.avif" alt="">
-            </div>
-            <div class="sec5-paragraph autoShowParajs">
-                <ul>
-                    <li>
-                        <strong>Exciting Tournaments with Cash Prizes:</strong> Join our Free Fire and BGMI tournaments
-                        to showcase your
-                        skills and compete for **real cash rewards**. Every match is live-streamed, making it thrilling
-                        for players and
-                        spectators alike.
-                        <span class="hidden">We ensure fair play and provide opportunities for gamers of all levels,
-                            from casual players
-                            to professionals.</span>
-                    </li>
-                    <li>
-                        <strong>Flexible and Fair Gameplay:</strong> Participate in both **free** and **paid
-                        tournaments**, solo or with
-                        your squad. Our events combine strategy and skill to create the ultimate battle royale
-                        experience.
-                        <span class="hidden">With secure payments and real-time monitoring, we make every game safe,
-                            fair, and
-                            transparent.</span>
-                    </li>
-                    <li>
-                        <strong>A Vibrant Gaming Community:</strong> Be part of a growing community of passionate
-                        gamers. Enjoy fun
-                        competitions, grow your skills, and become a champion.
-                        <span class="hidden">Thug Zone is more than just a platform; it’s a space to connect, compete,
-                            and
-                            thrive.</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="sec6 sec6-container" id="howjoin">
-        <div class="sec6-txt">
-            <div class="sec6-heading ">
-                <img class="autoShowjs join-border" src="/IMGs/TXT/JOIN BORDER.avif" alt="">
-                <img class="autoShowjs how-to-join" src="/IMGs/TXT/HOW TO JOIN.avif" alt="">
-            </div>
-
-            <div class="sec6-paragraph autoShowParajs">
-                <ul>
-                    <li>
-                        <strong>Create an Account:</strong>
-                        Sign up or log in to your account<span class="hidden"> on our website. This will allow you to
-                            access all
-                            member features and participate in championships.</span>
-                    </li>
-                    <li>
-                        <strong>Select a Championship:</strong>
-                        Go to the participation page and choose between the BGMI or Free Fire Championship.
-                        <span class="hidden">Ensure you select the game you are most comfortable with to maximize your
-                            performance.</span>
-                    </li>
-                    <li>
-                        <strong>Fill the Form:</strong>
-                        Fill the participation form with accurate details <span class="hidden">, including
-                            your and your team in-game name and UID, your contact information, and Team Name.</span>
-                    </li>
-                    <li>
-                        <strong>Pay the Fee:</strong>
-                        Submit the form and pay the entry fee (varies by championships; details on our website and
-                        YouTube channel).<span class="hidden"> Secure payment options are available for your
-                            convenience.</span>
-                    </li>
-                    <li>
-                        <strong>Details on Email:</strong>
-                        <span class="hidden">Receive an email and a notification with the</span> custom room ID,
-                        password and time when the championship will going to start.
-                    </li>
-                    <li class="hide-line-424">
-                        <strong>Join and Play:</strong>
-                        At the scheduled time, confirm your player name, email, and payment to enter the custom room and
-                        start playing.<span class="hidden"> Make sure your internet connection is stable to avoid any
-                            disruptions during the game.</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="sec6-character-container">
-            <img src="/IMGs/CHAR/CHAR SEC 6.avif" alt="Character Image" class="autoCharSlideRjs sec6-char">
-        </div>
-    </section>
-
-    <section class="sec7 sec7-container" id="faq">
-
-        <div class="faq-heading">
-            <img class="autoShow" src="IMGs/TXT/FAQ.avif" alt="">
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>What is Thug Zone?</h3> <i class="icon ri-arrow-down-s-line"></i>
-            </div>
-            <div class="answer">
-                <p>Thug Zone is an Organizer that organizes thrilling championships, tournaments, live
-                    streaming, other contents for battle royal games, such as free fire and bgmi.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>Are Thug Zone's championships free to join?</h3> <i class="icon ri-arrow-down-s-line"></i>
-            </div>
-            <div class="answer ">
-                <p>Thug Zone organizes both paid and free championships, providing opportunities for players of
-                    all budgets to participate.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>What are the prizes in Thug Zone's championships?</h3> <i class="icon ri-arrow-down-s-line"></i>
-            </div>
-            <div class="answer ">
-                <p>Thug Zone's championships provide cash prizes for the winners.
-                </p>
-            </div>
-        </div>
-
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>What types of championships does Thug Zone organize?</h3> <i class="icon ri-arrow-down-s-line"></i>
-
-            </div>
-            <div class="answer ">
-                <p>Thug Zone organizes various types of championships, including squad championships and
-                    individual tournaments both paid and free, allowing players to compete as a team or
-                    individually.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>How often do Thug Zone's championships take place?</h3> <i class="icon ri-arrow-down-s-line"></i>
-            </div>
-            <div class="answer ">
-                <p>Thug Zone schedules championships every week and every month, ensuring there are frequent
-                    opportunities for
-                    players to participate and showcase their skills.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>How can I stay updated on Thug Zone's latest announcements and events?</h3> <i
-                    class="icon ri-arrow-down-s-line"></i>
-            </div>
-            <div class="answer ">
-                <p>You can stay updated on Thug Zone's latest announcements by following their YouTube channel,
-                    Regular visit of Thug Zone Website
-                    and other social media platforms. They may also share exclusive content and redeem codes for
-                    Free Fire.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>What are the benefits of participating in Thug Zone's championships?</h3><i
-                    class="icon ri-arrow-down-s-line"></i>
-            </div>
-            </h3>
-            <div class="answer ">
-                <p>Participating in Thug Zone's championships offers players the opportunity to test their
-                    skills, compete against skilled opponents, and potentially win exciting prizes.</p>
-            </div>
-        </div>
-
-        <div class="accordion autoShowFaq">
-            <div class="question">
-                <h3>How can I contact Thug Zone for further inquiries?</h3> <i class="icon ri-arrow-down-s-line"></i>
-
-            </div>
-            <div class="answer ">
-                <p>To reach out to Thug Zone for further inquiries, you can send them a message on
-                    official@thugzone.in or contact them through their social media platforms. All the social media
-                    platforms links are given in the header and footer.</p>
-            </div>
-        </div>
-
-
-    </section>
-
-    <footer class="footer">
-
-        <div class="footer_content footer_img">
-            <img src="/IMGs/LOGO/tz logo full.avif" alt="logo">
-            <p>Experience the unbeatable excitement of the free fire championships at Thug Zone! Don't miss out -
-                Join the action today!</p>
-        </div>
-
-        <div class="footer_content">
-            <h4>Contact Us</h4>
-            <ul>
-                <li><a href="https://www.instagram.com/thugzone07" target="_blank"><i class="ri-instagram-line"></i>
-                        Instagram</a></li>
-
-                <li><a href="https://wa.me/918789706061" target="_blank"><i class="ri-whatsapp-line"></i>
-                        WhatsApp</a></li>
-
-                <li><a href="mailto:offical@thugzone.in"><i class="ri-mail-send-line"></i> Email</a></li>
-            </ul>
-        </div>
-        <div class="footer_content">
-            <h4>Quick Links</h4>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#links">Championship</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#faq">FAQ</a></li>
-            </ul>
-
-        </div>
-        <div class="footer_content">
-            <h4>Legal</h4>
-            <ul>
-                <li><a target="_blank" href="/legal/privacy-policy.html">Privacy Policy</a></li>
-                <li><a target="_blank" href="/legal/cookies-policy.html">Cookies Policy</a></li>
-                <li><a target="_blank" href="/legal/refund-policy.html">Refund Policy</a></li>
-                <li><a target="_blank" href="/legal/terms-and-conditions.html">Terms and Conditions</a></li>
-                <li><a target="_blank" href="/legal/disclamair.html">Disclaimer</a></li>
-            </ul>
-        </div>
-    </footer>
-    <script>
-    const cursor = document.getElementById("cursor");
-    document.addEventListener("mousemove", (e) => {
-        cursor.style.left = `${e.clientX}px`;
-        cursor.style.top = `${e.clientY}px`;
-        for (let i = 0; i < 5; i++) {
-            createParticle(e.clientX, e.clientY);
-        }
-    });
-
-    document.addEventListener("scroll", () => {
-        cursor.style.left = `${window.innerWidth / 2}px`;
-        cursor.style.top = `${window.innerHeight / 2}px`;
-    });
-
-    function createParticle(x, y) {
-        const particle = document.createElement("div");
-        particle.classList.add("particle");
-        document.body.appendChild(particle);
-
-        const size = Math.random() * 4 + 2;
-        particle.style.width = `${size}px`;
-        particle.style.height = `${size}px`;
-        particle.style.left = `${x}px`;
-        particle.style.top = `${y}px`;
-
-        const angle = Math.random() * 2 * Math.PI;
-        const speed = Math.random() * 4 + 1;
-        const xVelocity = Math.cos(angle) * speed;
-        const yVelocity = Math.sin(angle) * speed;
-
-        let opacity = 1;
-        const animation = setInterval(() => {
-            x += xVelocity;
-            y += yVelocity;
-            opacity -= 0.05;
-            particle.style.left = `${x}px`;
-            particle.style.top = `${y}px`;
-            particle.style.opacity = opacity;
-
-            if (opacity <= 0) {
-                clearInterval(animation);
-                particle.remove();
-            }
-        }, 50);
-    }
-    </script>
-    <script src="/assets/js/navbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/gsap.min.js"
+        integrity="sha512-f6bQMg6nkSRw/xfHw5BCbISe/dJjXrVGfz9BSDwhZtiErHwk7ifbmBEtF9vFW8UNIQPhV2uEFVyI/UHob9r7Cw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.7/ScrollTrigger.min.js"
+        integrity="sha512-AcqPGqrrAEtEwe+ADO5R8RbdFi7tuU7b/A2cJJH0Im0D18NRk5p5s4B3E5PMuO81KFw0ClN7J5SHVUJz7KOb0A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="/assets/js/script.js"></script>
 
 </body>

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Free Fire | Participation Form</title>
+    <link rel="icon" href="/IMGs/fevicon/fevicon.png" type="image/png">
+    <link rel="stylesheet" href="/assets/css/thugSquad.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <!-- Loader Popup -->
+    <div id="loaderPopup" class="popup">
+        <div class="popup-content">
+            <p>Please hold on, your form is submitting...</p>
+        </div>
+    </div>
+
+    <!-- Success Popup -->
+    <div id="successPopup" class="popup">
+        <div class="popup-content">
+            <p>Form submitted successfully!</p>
+            <button id="backHomeBtn">Back to Home</button>
+        </div>
+    </div>
+
+    <section class="contact-form">
+
+        <form method="POST" class="registration-form" id="reg-form" name="google-sheet">
+
+            <h2 class="title">Thug Squad <br>Registration
+            </h2>
+            <div class="info-containerWrapper">
+
+                <div class="info-container">
+
+                    <div class="main-form-container">
+
+                        <div class="input-container">
+                            <input placeholder="Enter Team Name" type="text" id="team_name" name="Team-Name"
+                                class="input" required autofocus />
+                            <i class='bx bxs-group'></i>
+                        </div>
+                        <div class="input-container">
+                            <input placeholder="Enter your name" type="text" id="your_name" name="Player-Name"
+                                class="input" required />
+                            <i class='bx bxs-group'></i>
+                        </div>
+                        <div class="input-container">
+                            <input placeholder="Enter Contact Email" type="email" name="Contact-Email"
+                                id="contact_email" class="input" />
+                            <i class='bx bxs-envelope'></i>
+                        </div>
+
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>Promo Code</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="Enter promo code" name="Promo-Code" required
+                                        class="input" />
+                                </div>
+                                <p>Type <strong>NA</strong> if you don't have a promo code</p>
+                            </div>
+                        </div>
+
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>1st Player</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game Name" id="1st_player_name"
+                                        name="1st-Player-Name" required class="input" />
+                                </div>
+
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game UID" id="1st_player_uid"
+                                        name="1st-Player-UID" required class="input" />
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>2nd Player</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game Name" id="2nd_player_name"
+                                        name="2nd-Player-Name" required class="input" />
+                                </div>
+
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game UID" id="2nd_player_uid"
+                                        name="2nd-Player-UID" required class="input" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>3rd Player</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game Name" id="3rd_player_name"
+                                        name="3rd-Player-Name" required class="input" />
+                                </div>
+
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game UID" id="3rd_player_uid"
+                                        name="3rd-Player-UID" required class="input" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>4th Player</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game Name" id="4th_player_name"
+                                        name="4th-Player-Name" required class="input" />
+                                </div>
+
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game UID" id="4th_player_uid"
+                                        name="4th-Player-UID" required class="input" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="playerbox input-container">
+                            <div class="player">
+                                <h3>Optional Player</h3>
+                                <i class='bx bx-plus' id="plus-icon"></i>
+                                <i class='bx bx-minus' id="minus-icon"></i>
+                            </div>
+
+                            <div class="hide">
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game Name" id="optional_player_name"
+                                        name="Optional-Player-Name" class="input" />
+                                </div>
+
+                                <div class="playerinput input-container">
+                                    <input type="text" placeholder="In Game UID" id="optional_player_uid"
+                                        name="Optional-Player-UID" class="input" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="paymentContainerWrapper">
+
+                <div class="paymentContainer">
+                    <h3>Choose Prize Method</h3>
+                    <p>If you win, how would you like to receive your prize?</p>
+                    <div class="methodChoose">
+                        <div class="m1 m">
+                            <label for="redeem"><input id="redeem" name="Prize-Method" value="redeem" type="radio">
+                                Redeem
+                                code</label>
+                        </div>
+
+                        <div class="m2 m">
+                            <label for="bank">
+                                <input id="bank" name="Prize-Method" value="bank" type="radio">
+                                Bank Account
+                            </label>
+                        </div>
+
+                        <div class="m3 m">
+                            <label for="upi"><input id="upi" name="Prize-Method" value="upi" type="radio"> UPI</label>
+                        </div>
+                    </div>
+
+                    <div class="playerbox input-container redeem-container">
+                        <div class="player">
+                            <h3>Redeem Code</h3>
+                            <i class='bx bx-plus' id="plus-icon"></i>
+                            <i class='bx bx-minus' id="minus-icon"></i>
+                        </div>
+
+                        <div class="hide method redeem">
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter Email" required name="Redeem-Email"
+                                    class="input" />
+                            </div>
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter Instagram ID" required name="Redeem-Instagram"
+                                    class="input" />
+                            </div>
+                            <p>This is for where you want to receive the redeem code</p>
+                        </div>
+                    </div>
+
+                    <div class="playerbox input-container bank-container">
+                        <div class="player">
+                            <h3>Bank Account</h3>
+                            <i class='bx bx-plus' id="plus-icon"></i>
+                            <i class='bx bx-minus' id="minus-icon"></i>
+                        </div>
+
+                        <div class="hide method bank">
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter A/c Holder name" required name="Bank-Holder-Name"
+                                    class="input" />
+                            </div>
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter IFC Code" required name="IFSC-Code"
+                                    class="input" />
+                            </div>
+
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter A/C No." required name="Account-Number"
+                                    class="input" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="playerbox input-container upi-container">
+                        <div class="player">
+                            <h3>UPI</h3>
+                            <i class='bx bx-plus' id="plus-icon"></i>
+                            <i class='bx bx-minus' id="minus-icon"></i>
+                        </div>
+
+                        <div class="hide method upi">
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter A/c Holder Name" required name="UPI-Holder-Name"
+                                    class="input" />
+                            </div>
+                            <div class="playerinput input-container">
+                                <input type="text" placeholder="Enter UPI ID" required name="UPI-Id" class="input" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="feePayWrapper">
+                <div class="feePay">
+                    <h4>Scan the QR and Pay the fee</h4>
+                    <img class="qr" src="IMGs/99 qr.jpg" alt="">
+
+                    <input name="Holder-Name" class="input" type="text" required placeholder="Enter A/c holder name">
+                    <input type="datetime-local" id="paymentTime" name="paymentTime">
+                </div>
+                <div class="formbtn">
+                    <button class="cancelBtn" type="button" name="cancel">Back</button>
+                    <button class="nextBtn" type="button" name="next">Next</button>
+                    <input type="submit" class="nextBtn submitBtn" value="Submit">
+                </div>
+            </div>
+            <a class="support" href="mailto:get@support.thugzone.in"><i class='bx bx-support'></i> Need
+                Help? Click here</a>
+
+        </form>
+    </section>
+
+    <script src="/assets/js/thugSquad.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const now = new Date();
+        const offset = now.getTimezoneOffset();
+        const localTime = new Date(now.getTime() - offset * 60000)
+            .toISOString()
+            .slice(0, 16); // Format: "YYYY-MM-DDTHH:MM"
+
+        document.getElementById('paymentTime').value = localTime;
+    });
+</script>
+</body>
+
+</html>
