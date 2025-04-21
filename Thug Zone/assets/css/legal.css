@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left bottom,
+    from(#171826),
+    color-stop(#09080d),
+    to(#09080d)
+  );
+  background: -o-linear-gradient(top right, #171826, #09080d, #09080d);
+  background: linear-gradient(to bottom left, #171826, #09080d, #09080d);
+  color: #b6b6b6;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px 20px;
+  background: transparent;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+  padding: 50px 0;
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  background: url(/IMGs/BG/BG\ RED.avif);
+  background-size: cover;
+  background-position: center;
+}
+section {
+  margin: 20px 0;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: #fff;
+    line-height: 1;
+
+}
+h2 {
+  color: #ffffff;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+}
+h3 {
+  color: #dadada;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333333;
+  font-size: 1.2rem;
+}
+
+h4 {
+  color: #dfdfdf;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #333333;
+
+  font-size: 1.2rem;
+}
+
+ul,
+ol {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+
+footer ul {
+  list-style: none;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background: url(/IMGs/BG/BG\ RED.avif);
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+  margin-top: 20px;
+  border-radius: 0 0 5px 5px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8c031a;
+  text-decoration: underline;
+}
+.updated-time {
+  text-align: right;
+  font-size: 12px;
+  color: #888;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+}
