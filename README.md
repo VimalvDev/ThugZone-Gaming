@@ -38,7 +38,7 @@ This project was developed as part of a freelance collaboration with the Thug Zo
 <img src="IMGs/README-IMGs/hoveranimation.png" alt="Form" width="600" />
 
 ### 🎞️ Scroll-Based Animation
-<img src="IMGs/README-IMGs/scrollbased" alt="GSAP Scroll Effects" width="600" />
+<img src="IMGs/README-IMGs/scrollbased.png" alt="GSAP Scroll Effects" width="600" />
 
 ---
 
